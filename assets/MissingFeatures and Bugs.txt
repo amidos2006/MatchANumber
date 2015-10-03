@@ -1,0 +1,19 @@
+- [UnDone and Removed] Make more color scheme modes (try the hollow and weird ones)
+- [Done] Make the color of tocuhed tiles darker may be to be more appearing
+- [Done] make the target flicker or do anything when it is changed to attract the player eye
+- [Done] the mute switch doesnt work
+- [Done] GameCenter
+- [Done] Make the timestep doesn't depend on frame rate for time mode
+- [Done and Removed] Make score do the same like the target
+- [Not Done and Not Required] Multiplayer mode generating numbers and may be the goal
+- [Done] Puzzle mode difficulty adaptation 1 based on generating
+- [Not Done but Not Required] Puzzle mode difficulty adaptation 2 based on tile numbers
+- [Done] Modifing the HUD for Puzzle mode and Multiplayer mode
+- [Done] Modifing the Puzzle mode for 10 Puzzles
+- [Done] New Music added
+- [Done] Biggest thing I would recommend adding is something like a simple first-play-intro tutorial rather than just having the "help" text.  
+  The why: I purposely didn't explain the game to my girlfriend - 
+  she missed the "help" option - started and was frustrated.  
+  I didn't have the same problem, nor would most frequent gamers - however it is generally a good idea to be as inclusive as possible.  
+  A slick example of a simple "intro tutorial" is the one in "Dots" (App Store) - have you seen that?  
+  Once is fine, since the owner can explain to others how to play.

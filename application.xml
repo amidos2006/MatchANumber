@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/14.0">
+  <id>com.Amidos.MatchANumber</id>
+  <versionNumber>1.0.1</versionNumber>
+  <supportedProfiles>mobileDevice</supportedProfiles>
+  <filename>MatchANumberAndroid</filename>
+  <name>Match a Number</name>
+  <android>
+    <manifestAdditions><![CDATA[<manifest android:installLocation="auto">
+	<uses-sdk android:targetSdkVersion="13"/>
+	<uses-sdk android:minSdkVersion="8"/>	
+	<application>
+		<meta-data android:name="com.google.android.gms.games.APP_ID" android:value="\ 171075045507" />
+		<meta-data android:name="com.google.android.gms.version" android:value="4323000"/>
+	</application>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-feature android:required="true" android:name="android.hardware.touchscreen.multitouch" />
+</manifest>]]></manifestAdditions>
+  </android>
+  <iPhone>
+    <InfoAdditions><![CDATA[<key>UIStatusBarStyle</key>
+<string>UIStatusBarStyleBlackOpaque</string>
+<key>UIRequiresPersistentWiFi</key>
+<string>NO</string>
+<key>UIRequiredDeviceCapabilities</key>
+<array>
+	<string>front-facing-camera</string>
+</array>
+<key>UIPrerenderedIcon</key>
+<true />
+<key>UIApplicationExitsOnSuspend</key>
+<false />
+<key>UIDeviceFamily</key>
+<array>
+	<!-- iPhone support -->
+	<string>1</string>
+	<!-- iPad support -->
+	<string>2</string>
+</array>]]></InfoAdditions>
+    <requestedDisplayResolution>standard</requestedDisplayResolution>
+  </iPhone>
+  <initialWindow>
+    <title>MatchANumberAndroid</title>
+    <content>MatchANumberAndroid.swf</content>
+    <visible>true</visible>
+    <autoOrients>true</autoOrients>
+    <aspectRatio>portrait</aspectRatio>
+    <renderMode>gpu</renderMode>
+    <systemChrome>none</systemChrome>
+    <fullScreen>true</fullScreen>
+  </initialWindow>
+  <icon>
+    <image48x48>icons/MatchANumberAndroid48.png</image48x48>
+    <image57x57>icons/MatchANumberAndroid57.png</image57x57>
+    <image72x72>icons/MatchANumberAndroid72.png</image72x72>
+    <image76x76>icons/MatchANumberAndroid76.png</image76x76>
+    <image114x114>icons/MatchANumberAndroid114.png</image114x114>
+    <image120x120>icons/MatchANumberAndroid120.png</image120x120>
+    <image144x144>icons/MatchANumberAndroid144.png</image144x144>
+    <image152x152>icons/MatchANumberAndroid152.png</image152x152>
+    <image512x512>icons/MatchANumberAndroid512.png</image512x512>
+    <image16x16>icons/MatchANumberAndroid16.png</image16x16>
+    <image29x29>icons/MatchANumberAndroid29.png</image29x29>
+    <image32x32>icons/MatchANumberAndroid32.png</image32x32>
+    <image36x36>icons/MatchANumberAndroid36.png</image36x36>
+    <image50x50>icons/MatchANumberAndroid50.png</image50x50>
+    <image58x58>icons/MatchANumberAndroid58.png</image58x58>
+    <image100x100>icons/MatchANumberAndroid100.png</image100x100>
+    <image128x128>icons/MatchANumberAndroid128.png</image128x128>
+  </icon>
+  <!-- 
+	AIR options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	
+	AIR mobile options:
+	http://help.adobe.com/en_US/air/build/WSfffb011ac560372f-5d0f4f25128cc9cd0cb-7ffe.html
+	
+	iOS icons guidelines:
+	http://developer.apple.com/library/ios/#documentation/userexperience/conceptual/mobilehig/IconsImages/IconsImages.html
+	
+	Android manifest documentation:
+	http://developer.android.com/guide/topics/manifest/manifest-intro.html
+	-->
+  <copyright>© 2013 Amidos</copyright>
+  <extensions>
+    <extensionID>com.milkmangames.extensions.GoogleGames</extensionID>
+	<extensionID>com.mesmotronic.ane.fullscreen</extensionID>
+  </extensions>
+</application>
